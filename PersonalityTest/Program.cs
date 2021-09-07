@@ -7,7 +7,7 @@ namespace PersonalityTest
         static void Main(string[] args)
         {
             Console.WriteLine("What is your favorite color?");
-            string Usercolor = Console.ReadLine();
+            string Usercolor = Console.ReadLine().ToLower();
 
             if (Usercolor == "punane")
             {
